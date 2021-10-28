@@ -2,8 +2,8 @@
 Re-write of the Encompass-Loan-Message-Controller project, changed messages to use xml, improved message box looks, cleaned up code.
 
 This is a complete re-write of the Encompass-Loan-Message-Controller project located here: https://github.com/andre-kramer/Encompass-Loan-Message-Controller
-The user manual was copied from the old project, most of it is still applicable. 
-The differences are the message text sent to the Message Trigger field, default messages have been removed, the json config file has been simplified.
+The user manual was copied from the old project and paired down to reflect the updates made in this new solution. 
+The parts describing how to create the messages has been removed and replaced with the Encompass.Message.Config project. It is not required that this project be used to create the messages, however it is a good tool to see how these messages are created.
 
 I decided to go with xml because it allows the use of the XMLDocument object and other tools that makes parsing these strings easier and far less error prone than my half backed attempt at a text parser.
 
