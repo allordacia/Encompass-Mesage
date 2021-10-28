@@ -1,5 +1,5 @@
 # Encompass-Mesage
-Re-write of the Encompass-Loan-Message-Controller project, changed messages to use xml, improved message box looks, cleaned up code.
+Re-write of the Encompass-Loan-Message-Controller project, changed messages to use xml, improved message box appearance, and cleaned up the code.
 
 This is a complete re-write of the Encompass-Loan-Message-Controller project located here: https://github.com/andre-kramer/Encompass-Loan-Message-Controller
 The user manual was copied from the old project and paired down to reflect the updates made in this new solution. 
