@@ -17,7 +17,7 @@ The second project Encompass.Message.Config is a simple windows forms project th
 You will need to down load the MessageConfig.json file from the CDO in the IFB to be able to open it into the config application. Be sure to save a copy of it off somewhere because the config application will update the file you opened. Once you have completed and applied your changes, upload the MessageConfig.json file back into the Global CDO in the input form builder.
 
 To create message xml strings just complete the fields, as each field is completed the xml string will automatically update. When completed copy the string from the XML output box and past it into your code.
-Example: [CX.UPDATE.MESSAGE] = "<message id='Test01' action='1' dismiss='1' display='0' title='This is a test message' link=''>This is the text of a test message</message>"
+Example: [CX.UPDATE.MESSAGE] = ["<message id='Test01' action='1' dismiss='1' display='0' title='This is a test message' link=''>This is the text of a test message</message>"]
 
 NOTE: The Message ID field is required if the dismiss flag is set to 0. If an Id is not provided the message will be treated as if the dismiss flag was set to 1.
 
